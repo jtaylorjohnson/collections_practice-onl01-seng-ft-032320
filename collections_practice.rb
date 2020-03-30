@@ -34,6 +34,7 @@ def find_a(array)
     n.start_with?("a")
     if true then new_array << n 
   end
+  end
   return new_array
 end
 
