@@ -29,6 +29,7 @@ def kesha_maker(array)
     # n.join
   
   end
+  return array
   
   # array.each(name)
   #   string = name.split
