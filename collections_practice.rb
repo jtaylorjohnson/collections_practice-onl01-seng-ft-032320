@@ -20,6 +20,8 @@ def reverse_array(integers)
 end
 
 def kesha_maker(array)
+  
+  
   array.each(name)
     string = name.split
     string[2] = "$"
