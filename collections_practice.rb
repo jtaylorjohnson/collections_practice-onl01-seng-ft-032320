@@ -20,7 +20,7 @@ def reverse_array(integers)
 end
 
 def kesha_maker(array)
-  array.each do |n|
+  array.collect do |n|
     word = n.split
     word [2] = "$"
   end
