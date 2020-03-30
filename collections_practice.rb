@@ -39,6 +39,7 @@ def add_s(array)
     n = n + "s"
   end
   array[1] = array[1].chop
+  return array
 end
 
 
