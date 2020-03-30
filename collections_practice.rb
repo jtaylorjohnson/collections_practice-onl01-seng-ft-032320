@@ -24,7 +24,7 @@ def kesha_maker(array)
   word = array[1].split
   word[2] = "$"
   
-  return 
+  return array
   
   # array.each(name)
   #   string = name.split
