@@ -31,12 +31,15 @@ def find_a(array)
 end
 
 def sum_array(array)
-  # x = 0
-  # array.each {|n| n+x}
   array.sum
-  
-  
 end  
   
-  
+def add_s(array)
+  array.collect do |n|
+    n = n + "s"
+  end
+  array[1] = array[1] - "s"
+end
+
+
   
