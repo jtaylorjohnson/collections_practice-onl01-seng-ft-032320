@@ -30,7 +30,7 @@ def find_a(array)
   new_array = []
   array.select do |n|
    n.start_with?("a")
-    new_array << n 
+    then new_array << n 
   end
   return new_array
 end
