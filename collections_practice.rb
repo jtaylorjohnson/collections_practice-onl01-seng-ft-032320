@@ -33,6 +33,8 @@ end
 def sum_array(array)
   # x = 0
   # array.each {|n| n+x}
+  array.sum
+  
   
 end  
   
