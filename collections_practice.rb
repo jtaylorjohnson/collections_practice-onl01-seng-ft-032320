@@ -22,8 +22,6 @@ end
 def kesha_maker(array)
   array.each(name)
     name[2] = "$"
-    end
-  end
 end
 
   
