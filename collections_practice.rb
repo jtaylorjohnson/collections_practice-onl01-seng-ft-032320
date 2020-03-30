@@ -23,6 +23,8 @@ def kesha_maker(array)
   array.collect do |n|
     word = n.split
     word[2] = "$"
+    n.join
+  
   end
   
   # array.each(name)
