@@ -28,5 +28,6 @@ end
 
 def find_a(array)
   
+  start_with?
   
   
