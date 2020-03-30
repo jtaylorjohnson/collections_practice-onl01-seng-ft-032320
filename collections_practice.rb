@@ -32,6 +32,7 @@ def find_a(array)
    n.start_with?("a")
     new_array << n 
   end
+  return new_array
 end
 
   
