@@ -27,17 +27,17 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-   new_array = []
-  #new_array = array.start_with?(a)
+  # new_array = []
+  # #new_array = array.start_with?(a)
  
-  array.each do |n|
-    n.start_with?("a")
-    if true then new_array << n 
-  end
-  end
-  return new_array
+  # array.each do |n|
+  #   n.start_with?("a")
+  #   if true then new_array << n 
+  # end
+  # end
+  # return new_array
   
-  
+  array.select {|n| n.start_with?("a")}
 end
 
   
