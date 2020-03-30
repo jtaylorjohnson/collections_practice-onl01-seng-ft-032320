@@ -31,8 +31,8 @@ def find_a(array)
 end
 
 def sum_array(array)
-  x = 0
-  array.each {|n| n+x}
+  # x = 0
+  # array.each {|n| n+x}
   
 end  
   
