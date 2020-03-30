@@ -35,8 +35,7 @@ def sum_array(array)
 end  
   
 def add_s(array)
-  array.collect do |n|
-    n + "s"
+  array.collect { |n| n + "s" }
   end
   array[1] = array[1].chop
   return array
