@@ -32,7 +32,7 @@ end
 
 def sum_array(array)
   x = 0
-  array.select {|n| n+x}
+  array.each {|n| n+x}
   
 end  
   
