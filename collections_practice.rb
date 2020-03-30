@@ -22,20 +22,11 @@ end
 def kesha_maker(array)
   array.collect do |n|
     n[2] = "$"
-    
-    # array.collect do |n|
-    # word = n.split
-    # word[2] = "$"
-    # n.join
-  
   end
   return array
-  
-  # array.each(name)
-  #   string = name.split
-  #   string[2] = "$"
 end
 
+def find_a(array)
   
   
   
