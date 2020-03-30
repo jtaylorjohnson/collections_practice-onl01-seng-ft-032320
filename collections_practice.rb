@@ -40,6 +40,7 @@ def add_s(array)
   array[1] = array[1].chop
   return array
 end
+end
 
 
   
