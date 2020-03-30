@@ -38,7 +38,7 @@ def add_s(array)
   array.collect do |n|
     n = n + "s"
   end
-  array[1] = array[1].pop
+  array[1] = array[1] - "s"
 end
 
 
