@@ -32,7 +32,7 @@ def find_a(array)
  
   array.each do |n|
     n.start_with?("a")
-    if true new_array << n 
+    if true then new_array << n 
   end
   return new_array
 end
